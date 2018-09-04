@@ -3,6 +3,7 @@ import React from 'react'
 
 const Nav = () => {
 	return (
+	<div className="topheader">
 		<div className="navWrapper">
 			<span className="headerText">Hogwarts</span>
 			<div className="TwirlyPig">
@@ -12,6 +13,7 @@ const Nav = () => {
 			</div>
 			<span className="normalText">A React App for County Fair Hog Fans</span>
 		</div>
+	</div>
 	)
 }
 
